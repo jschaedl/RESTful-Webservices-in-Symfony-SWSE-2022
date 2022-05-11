@@ -5,7 +5,7 @@
 ### Workshop @ SymfonyWorld Online Summer Edition 2022 on 14th of June 2022
 
 > Nowadays RESTful APIs are powering the web and are used in almost every web application.
-> In this workshop you will learn the fundamental principles of REST and how you can implement a RESTful application using Symfony. 
+> In this workshop you will learn the fundamental principles of REST and how you can implement a RESTful application using Symfony.
 >
 > We will start with the basics of REST and will cover some more advanced topics like Serialization, Content-Negotiation, Security afterwards.
 > Besides all the theory you can deepen your learnings on every topic while doing the provided coding challenges.
@@ -33,7 +33,7 @@ This is example code that is not production-ready. It is intended for studying a
 
 - Symfony Binary: https://symfony.com/download
 - Postman App: https://www.getpostman.com/downloads
-  
+
 ## Coding Challenge
 
 For a 2-day conference, workshops and participants must be recorded.
@@ -77,23 +77,23 @@ We also want to limit access to our API as follows:
 
 HTTP Method | Endpoint
 ----------- | --------
- GET        | /workshops
- POST       | /workshops
- GET        | /workshops/{workshopId}
- PUT        | /workshops/{workshopId}
- DELETE     | /workshops/{workshopId}
- POST       | /workshops/{workshopId}/attendees/{attendeeId}/add
- POST       | /workshops/{workshopId}/attendees/{attendeeId}/remove
+GET        | /workshops
+POST       | /workshops
+GET        | /workshops/{workshopId}
+PUT        | /workshops/{workshopId}
+DELETE     | /workshops/{workshopId}
+POST       | /workshops/{workshopId}/attendees/{attendeeId}/add
+POST       | /workshops/{workshopId}/attendees/{attendeeId}/remove
 
 ### Attendee
 
 HTTP Method | Endpoint
 ----------- | --------
- GET        | /attendees
- POST       | /attendees
- GET        | /attendees/{attendeeId}
- PUT        | /attendees/{attendeeId}
- DELETE     | /attendees/{attendeeId}
+GET        | /attendees
+POST       | /attendees
+GET        | /attendees/{attendeeId}
+PUT        | /attendees/{attendeeId}
+DELETE     | /attendees/{attendeeId}
 
 ## Testing
 
